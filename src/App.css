@@ -1,0 +1,102 @@
+/* src/App.css */
+
+/* Home Page Styles */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.home-container h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.home-container p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+}
+
+/* Login Page Styles */
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:disabled {
+  background-color: #ccc;
+}
+
+.login-container p {
+  color: red;
+  text-align: center;
+}
+
+/* Signup Page Styles */
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.signup-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signup-container p {
+  color: red;
+  text-align: center;
+}
